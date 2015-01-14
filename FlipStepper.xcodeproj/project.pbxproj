@@ -14,6 +14,7 @@
 		FFE1649C1A665F9D0033DA4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE1649B1A665F9D0033DA4A /* Images.xcassets */; };
 		FFE1649F1A665F9D0033DA4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE1649D1A665F9D0033DA4A /* LaunchScreen.xib */; };
 		FFE164AB1A665F9E0033DA4A /* FlipStepperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE164AA1A665F9E0033DA4A /* FlipStepperTests.m */; };
+		FFE164B61A665FD50033DA4A /* FlipStepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE164B51A665FD50033DA4A /* FlipStepperView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FFE164A41A665F9E0033DA4A /* FlipStepperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipStepperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE164A91A665F9E0033DA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFE164AA1A665F9E0033DA4A /* FlipStepperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipStepperTests.m; sourceTree = "<group>"; };
+		FFE164B41A665FD50033DA4A /* FlipStepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipStepperView.h; sourceTree = "<group>"; };
+		FFE164B51A665FD50033DA4A /* FlipStepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipStepperView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		FFE1648D1A665F9D0033DA4A /* FlipStepper */ = {
 			isa = PBXGroup;
 			children = (
+				FFE164B71A665FDA0033DA4A /* FlipStepperView */,
 				FFE164921A665F9D0033DA4A /* AppDelegate.h */,
 				FFE164931A665F9D0033DA4A /* AppDelegate.m */,
 				FFE164951A665F9D0033DA4A /* ViewController.h */,
@@ -117,6 +121,15 @@
 				FFE164A91A665F9E0033DA4A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFE164B71A665FDA0033DA4A /* FlipStepperView */ = {
+			isa = PBXGroup;
+			children = (
+				FFE164B41A665FD50033DA4A /* FlipStepperView.h */,
+				FFE164B51A665FD50033DA4A /* FlipStepperView.m */,
+			);
+			name = FlipStepperView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFE164971A665F9D0033DA4A /* ViewController.m in Sources */,
+				FFE164B61A665FD50033DA4A /* FlipStepperView.m in Sources */,
 				FFE164941A665F9D0033DA4A /* AppDelegate.m in Sources */,
 				FFE164911A665F9D0033DA4A /* main.m in Sources */,
 			);
